@@ -1,7 +1,7 @@
 
-# Blockchain-Based EHR Framework
+## Blockchain-Based EHR Framework
 
-##  Note: This is the last step come to it after following all the steps given above else the application will run in some other port.
+###  Note: This is the last step come to it after following all the steps given above else the application will run in some other port.
 
 ## Overview
 This framework aims to leverage **blockchain technology** for **Electronic Health Records (EHR)** with a focus on **secure storage and granular access control**. Additionally, it addresses the **scalability issue** commonly faced by blockchain systems by implementing **off-chain storage**. The framework provides a **scalable, secure, and integral blockchain-based EHR solution**.
