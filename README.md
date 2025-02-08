@@ -14,6 +14,8 @@
 - To allow Physically disabled people there are some main features we had to focus on first like each page when loaded starts an AI generated voice which tells the features of each page
 - The Whole webapp's feature are voice enabled which means if someone is physcially disabled they dont have to touch mouse or keyboard then can just say "Hey Aura!" and the feature like "Get Started" and the page wil load.
 - The whole webapp is multilingual with the help of a smart Google Translator integration which allows the app to display its content in any language.
+  ![image](https://github.com/user-attachments/assets/ae73527e-7161-40b9-9c78-b022528a4a6f)
+
 
 ### 1. Multi-Biometric Authentication (Face Authentication)
 - The initial plan was to implement a three-step biometric authentication system using **face recognition, voice authentication, and dynamic text reading**.
