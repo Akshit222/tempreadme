@@ -304,6 +304,6 @@ Developed by **ViruCoders** for **HACKJMI**
 ## Contact
 For any queries or support, please reach out to:
 * Email: akshitbhattab@gmail.com    akshatvaidik@gmail.com
-* GitHub: [[Your GitHub Profile]](https://github.com/Akshit222)   https://github.com/Akshat1931
+* GitHub: (https://github.com/Akshit222)   (https://github.com/Akshat1931)
 
 
