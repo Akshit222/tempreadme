@@ -28,6 +28,8 @@
 - After each conversation, a **log is created and analyzed using NLP**.
 - The sentiment of the conversation is visualized on a **dashboard** to indicate signs of **depression, anxiety, and overall mood**.
   ![image](https://github.com/user-attachments/assets/b465e29c-a2a1-4b29-9578-c2ad003110a9)
+  ![image](https://github.com/user-attachments/assets/8ecbbc4e-abc2-41b7-9ce1-f5986efee312)
+
 
 
 ### 3. Therapy Cards
@@ -105,6 +107,16 @@ cd MentalHealthChatBot/client
 npm i
 set PORT=6001
 npm start
+
+Now, to Setup the Sentiment Analysis graph on your system 
+First , cd MentalHealthChatBot/Server/Conversation_log.txt
+Now Copy as path 
+Now paste it in 
+cd DashboardWithAuthAndTherapyCards/server/index.js
+![image](https://github.com/user-attachments/assets/803c1000-da98-40cb-8afe-225af5c0c29a)
+
+Note:Chatbot runs on a Gemini Defined API key which is stored in the .env inside the MentalHealthChatbot/server/.env if the key runs out , you can replace it with new one 
+
 ```
 
 **Terminal 6 - Server:**
