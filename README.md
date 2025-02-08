@@ -113,7 +113,13 @@ First , cd MentalHealthChatBot/Server/Conversation_log.txt
 Now Copy as path 
 Now paste it in 
 cd DashboardWithAuthAndTherapyCards/server/index.js
-![image](https://github.com/user-attachments/assets/803c1000-da98-40cb-8afe-225af5c0c29a)
+      app.get("/api/analyzeConversation", async (req, res) => {
+  try {
+    // Read conversation log file with absolute path
+    const conversationText = await fs.readFile(
+      "D:\\AB\\ProjectPracticeCodeWork\\IMP ONES\\AURA+\\MentalHealthChatBot\\server\\conversation_log.txt",
+      "utf8"
+    );
 
 Note:Chatbot runs on a Gemini Defined API key which is stored in the .env inside the MentalHealthChatbot/server/.env if the key runs out , you can replace it with new one 
 
