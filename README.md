@@ -1,26 +1,40 @@
 # Aura+ - A Mental Health Platform for Physically Disabled Individuals
 
 ## Introduction
-**Aura+** is an innovative mental health platform designed specifically for physically disabled individuals. Our project integrates multiple technologies to provide a seamless and accessible mental health support system. It offers **face authentication login, an AI therapist chatbot, therapy tools, virtual environments, and secure patient record storage using blockchain encryption**.
+**Aura+** is an innovative mental health platform designed specifically for physically disabled individuals which brings up a very large number of problems one needs to solve to succesfully solve the issue. Our project integrates multiple technologies to provide a seamless and accessible mental health support system. It offers **face authentication login, an AI therapist chatbot, therapy tools, virtual environments, and secure patient record storage using blockchain encryption**.
+![image](https://github.com/user-attachments/assets/c7a39dcc-a4bc-4e18-8d69-fafd37c4c83e)
+
+
 
 ---
 
 ## Features
 
+### 0. Main Utility Features
+- To allow Physically disabled people there are some main features we had to focus on first like each page when loaded starts an AI generated voice which tells the features of each page
+- The Whole webapp's feature are voice enabled which means if someone is physcially disabled they dont have to touch mouse or keyboard then can just say "Hey Aura!" and the feature like "Get Started" and the page wil load.
+- The whole webapp is multilingual with the help of a smart Google Translator integration which allows the app to display its content in any language.
+
 ### 1. Multi-Biometric Authentication (Face Authentication)
 - The initial plan was to implement a three-step biometric authentication system using **face recognition, voice authentication, and dynamic text reading**.
 - Due to time constraints, only **face authentication** is currently implemented.
+![image](https://github.com/user-attachments/assets/00827183-8e02-4679-8064-e7a714ce109f)
+
 
 ### 2. AI Therapist Chatbot
 - A chatbot that interacts with users to provide **mental health support**.
 - After each conversation, a **log is created and analyzed using NLP**.
 - The sentiment of the conversation is visualized on a **dashboard** to indicate signs of **depression, anxiety, and overall mood**.
+  ![image](https://github.com/user-attachments/assets/b465e29c-a2a1-4b29-9578-c2ad003110a9)
+
 
 ### 3. Therapy Cards
 A dedicated section for **therapeutic activities** such as:
 - 📖 Reading motivational content
 - 🎨 Drawing for self-expression
 - 🎵 Listening to calming music
+  ![image](https://github.com/user-attachments/assets/a0c5589c-cb85-4808-a33d-9521e8345e12)
+
 
 ### 4. Contact Therapist Simulation
 - A **simulated one-on-one therapy session**
@@ -28,12 +42,18 @@ A dedicated section for **therapeutic activities** such as:
 - Currently supports simple gestures like:
   - ✋ Showing all five fingers = **"Hello"**
   - ✊ Making a fist towards the camera = **"No"**
+![image](https://github.com/user-attachments/assets/1cba65a7-e450-4019-9840-5535ae802635)
+
 
 ### 5. Virtual Environment for Awareness
 - An interactive **3D space** designed to increase engagement and awareness about mental health.
+![image](https://github.com/user-attachments/assets/98d94fea-b354-499e-81e5-f63c38319ce4)
+
 
 ### 6. Dynamic Mode (3D Interactive Experience)
 - A **3D-controlled character** navigates teleport points on the map to **access different features of the platform** interactively.
+![image](https://github.com/user-attachments/assets/00777ede-2d7b-4c4d-a342-8b0be45df121)
+
 
 ### 7. Secure Patient Diagnosis & Blockchain Storage
 - **Patient records** are stored securely with **encryption**
@@ -101,7 +121,7 @@ set PORT=6002
 npm start
 ```
 
-###6. Patient Record System using BlockChain
+### 6. Patient Record System using BlockChain
 **Terminal 8:**
 ## Blockchain-Based EHR Framework
 
