@@ -18,13 +18,13 @@
 
 ### 3. Therapy Cards
 A dedicated section for **therapeutic activities** such as:
-- 📖 Reading motivational content.
-- 🎨 Drawing for self-expression.
-- 🎵 Listening to calming music.
+- 📖 Reading motivational content
+- 🎨 Drawing for self-expression
+- 🎵 Listening to calming music
 
 ### 4. Contact Therapist Simulation
-- A **simulated one-on-one therapy session**.
-- Includes a basic **sign language to text conversion model**.
+- A **simulated one-on-one therapy session**
+- Includes a basic **sign language to text conversion model**
 - Currently supports simple gestures like:
   - ✋ Showing all five fingers = **"Hello"**
   - ✊ Making a fist towards the camera = **"No"**
@@ -36,58 +36,100 @@ A dedicated section for **therapeutic activities** such as:
 - A **3D-controlled character** navigates teleport points on the map to **access different features of the platform** interactively.
 
 ### 7. Secure Patient Diagnosis & Blockchain Storage
-- **Patient records** are stored securely with **encryption**.
-- Only **hash values** are stored on the **blockchain** to ensure privacy and security while maintaining public accessibility.
+- **Patient records** are stored securely with **encryption**
+- Only **hash values** are stored on the **blockchain** to ensure privacy and security while maintaining public accessibility
 
 ---
 
 ## Setup Instructions
 
-To run **Aura+**, follow these steps:
+To run **Aura+**, you'll need to open multiple terminal windows for different components. Follow these steps:
 
-### **1. Dashboard with Authentication & Therapy Cards**
+### 1. Dashboard with Authentication & Therapy Cards
+**Terminal 1 - Client:**
 ```sh
 cd DashboardWithAuthAndTherapyCards/client
-npm i 
+npm i
 npm run dev
+```
 
-cd DashboardWithAuthAndTherapyCards/server
-npm i 
-npm start
-
-### **2. Dynamic Mode (3D Interactive Aura)**
+**Terminal 2 - Server:**
 ```sh
+cd DashboardWithAuthAndTherapyCards/server
+npm i
+npm start
+```
 
+### 2. Dynamic Mode (3D Interactive Aura)
+**Terminal 3:**
+```sh
 cd Dynamic-Aura
-npm i 
+npm i
 set PORT=6003
 npm start
+```
 
-### **3. Face Authentication System**
+### 3. Face Authentication System
+**Terminal 4:**
 ```sh
-
 cd FaceAuthForDisabled
-npm i 
 npm run dev
+```
 
-### **4. AI Mental Health Chatbot**
+### 4. AI Mental Health Chatbot
+**Terminal 5 - Client:**
 ```sh
-
 cd MentalHealthChatBot/client
-npm i 
+npm i
 set PORT=6001
 npm start
+```
 
-cd MentalHealthChatBot/server
-npm i 
-npm start
-
-### **5. Therapist Video Call for Disabled Users**
+**Terminal 6 - Server:**
 ```sh
+cd MentalHealthChatBot/server
+npm i
+npm start
+```
 
+### 5. Therapist Video Call for Disabled Users
+**Terminal 7:**
+```sh
 cd TherapistVideoCallforDisabled
-npm i 
+npm i
 set PORT=6002
-npm start 
+npm start
+```
 
+## Important Notes
+* The **sign language recognition model** requires a **well-lit environment**
+* The **face authentication system** is currently the only biometric method implemented
+* Each component must be run in a separate terminal window to function properly
+* Ensure all required ports (6001, 6002, 6003) are available before starting the services
 
+## Future Improvements
+* A **more robust sign language model**
+* Completion of **multi-biometric authentication**
+* Enhanced integration between components
+* Expanded therapy tool collection
+* Improved virtual environment interactions
+
+## Technologies Used
+* Frontend: React.js
+* Backend: Node.js
+* Authentication: Face Recognition API
+* Database: Blockchain Technology
+* 3D Environment: Three.js
+* Video Calls: WebRTC
+* AI Chatbot: Natural Language Processing
+
+## Team & Credits
+Developed by **[Your Team Name]** for **[Hackathon Name]**
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Contact
+For any queries or support, please reach out to:
+* Email: [Your Email]
+* GitHub: [Your GitHub Profile]
