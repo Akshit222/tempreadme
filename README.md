@@ -113,6 +113,7 @@ First , cd MentalHealthChatBot/Server/Conversation_log.txt
 Now Copy as path 
 Now paste it in 
 cd DashboardWithAuthAndTherapyCards/server/index.js
+Example:
       app.get("/api/analyzeConversation", async (req, res) => {
   try {
     // Read conversation log file with absolute path
